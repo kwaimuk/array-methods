@@ -66,14 +66,14 @@ var randomThingsArray = genericNumberArray.concat(colors);
 var updatedOrders = orderQueue.concat({ takeOut: 'fish'},{ takeOut: 'pizza'});
 
 //join
-var sentence= scrambledWords.join(" ");
+var sentence = scrambledWords.join(" ");
 
 var myFruits = fruitCollection.join(" + ");
 
 //slice
-var favoriteFriends = friends.slice(1,3);
+var favoriteFriends = friends.slice(1, 3);
 
-var owesMoney = friends.slice(3,6);
+var owesMoney = friends.slice(3, 6);
 
 //toString
 var monthNameString = monthNames.toString();
